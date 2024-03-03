@@ -1,0 +1,21 @@
+.hamburger {
+    display: none;
+}
+.navBar {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.navBar li{
+    margin-right: 50px;
+}
+.dots {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .navBar {
+        display: none;
+    }
+}
